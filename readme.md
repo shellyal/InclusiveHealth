@@ -28,9 +28,11 @@ The Directory is set up as follows:
 
 ## Resources on Github 
 
-### Primary Resource 
-[Github Docs](https://docs.github.com/en)
+### Primary Resource: [Github Docs](https://docs.github.com/en)
+This resource will be primarily used to reference how to use GitHub version control. It explains the features we will be mainly using: forking, pull requests, and creating branches. 
 
 ### [Github Desktop](https://desktop.github.com/)
->Recommended to use to fork the repository and future pull requests   
+>Recommended to use to fork the repository, creating branches future pull requests   
 >Can connect to preferred editor
+
+###[Basic 
