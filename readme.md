@@ -35,4 +35,7 @@ This resource will be primarily used to reference how to use GitHub version cont
 >Recommended to use to fork the repository, creating branches future pull requests   
 >Can connect to preferred editor
 
-###[Basic 
+### [Forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+>Use this function to place the repo onto your local computer. Pull Request will be used to commit to the main branch. 
+
+### [Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
