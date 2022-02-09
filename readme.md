@@ -7,14 +7,14 @@
 
 
 ## File Directory 
->The Directory is set up as followed 
+####The Directory is set up as followed 
 
 ### Assets 
->Houses css, fonts, and images and additional assets
+#### Houses css, fonts, and images and additional assets
 ### JavaScript 
->Houses .js files 
+#### Houses .js files 
 ### HTML 
->All .html files should be placed in parent folders 
+#### All .html files should be placed in parent folders 
 - [HomePage](InclusiveHealth/index.html)
 - [About Page](InclusiveHealth/about.html)
 - [Article](InclusiveHealth/article.html)
