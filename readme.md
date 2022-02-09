@@ -5,10 +5,8 @@ This Readme is just a reference point on the file directory and resources on Git
 
 - [File Directory](#file-directory)
 - [Resources](#resources-on-github)
-
-&nbsp 
-&nbsp 
-
+  
+  
 ## File Directory 
 The Directory is set up as follows:
 
