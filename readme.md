@@ -1,5 +1,5 @@
 # InclusiveHealth Development 
-This Readme is just a reference point on the file directory and resources on Github and additional coding resources. Please feel free to add to the readme if the directory is updated and/or additional resoures and guides. 
+##### This Readme is just a reference point on the file directory and resources on Github and additional coding resources. Please feel free to add to the readme if the directory is updated and/or additional resoures and guides. 
 
 ## Table of Contents 
 
