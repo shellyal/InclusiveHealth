@@ -1,24 +1,28 @@
 # InclusiveHealth Development 
-
+This Readme is just a reference point on the file directory and resources on Github and additional coding resources. Please feel free to add to the readme if the directory is updated and/or additional resoures and guides. 
 ## Table of Contents 
 
 -[File Directory](#file-directory)
--[Resources to Using Github Fork and Pull  ]
+-[Resources] (#resources-on-github)
 
 
 ## File Directory 
 The Directory is set up as follows:
 
 ### Assets 
-Place css, fonts, and images and additional assets
+Place Images, Fonts, and CSS in their respective folder. Additional assets files can be place in the parent assets folder
+- Images  
+- Fonts 
+- CSS 
+
 ### JavaScript 
-Place .js files 
+Place .js files here 
 ### HTML 
 All .html files should be placed in parent folders 
-- [HomePage](InclusiveHealth/index.html)
-- [About Page](InclusiveHealth/about.html)
-- [Article](InclusiveHealth/article.html)
-- [Ask Me](InclusiveHealth/ask-me.html)
+- Home
+- About 
+- Article 
+- Ask Me
 
 ## Resources on Github 
 
