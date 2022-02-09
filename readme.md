@@ -7,6 +7,7 @@ This Readme is just a reference point on the file directory and resources on Git
 - [Resources](#resources-on-github)
   
   
+
 ## File Directory 
 The Directory is set up as follows:
 
@@ -31,5 +32,5 @@ All .html files should be placed in parent folders
 [Github Docs](https://docs.github.com/en)
 
 ### [Github Desktop](https://desktop.github.com/)
->Recommended to use to fork the repository and future pull requests 
+>Recommended to use to fork the repository and future pull requests   
 >Can connect to preferred editor
