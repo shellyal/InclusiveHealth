@@ -12,7 +12,7 @@
 The Directory is set up as follows:
 
 ### Assets 
-**---Place Images, Fonts, and CSS in their respective folder. Additional assets files can be place in the parent assets folder---**
+**---Place Images, Fonts, and CSS in their respective folder. Additional assets files  can be place in the parent assets folder---**
 - Images  
 - Fonts 
 - CSS 
