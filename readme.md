@@ -26,4 +26,5 @@
 [Github Docs](https://docs.github.com/en)
 
 ### [Github Desktop](https://desktop.github.com/)
->Recommended to use to fork the repository and future pull requests
+>Recommended to use to fork the repository and future pull requests 
+>Can connect to preferred editor
