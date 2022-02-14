@@ -19,6 +19,15 @@ body {
   width: 100%;
 }
 
+.button{
+  background-color: #B5E9D8;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 16px;
+  border: none;
+}
+
 nav {
   background: var(--main-bg-color);
   width: 85%;
