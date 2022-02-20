@@ -13,7 +13,7 @@
   --body-font: 'Lato', sans-serif;
   --biggest-font-size: 1.75rem;
   --title-font-size: 1.5rem;
-  --body-font-size: 1.3rem;
+  --body-font-size: 1.1rem;
 }
 
 /*=============== Base ===============*/
@@ -74,7 +74,7 @@ nav ul li::after {
   background: #fff;
   position: absolute;
   left: 0;
-  bottom: 1.5rem;
+  bottom: 2.2rem;
   transition: 0.5s;
 }
 
@@ -154,6 +154,7 @@ nav ul li:hover::after {
   top: 45%;
   height: 25rem;
   background-repeat: no-repeat;
+  filter: drop-shadow(10px 10px 4px #1b7751);
 }
 
 .white__background_2 {
@@ -164,6 +165,7 @@ nav ul li:hover::after {
   top: 128%;
   height: 15rem;
   background-repeat: no-repeat;
+  filter: drop-shadow(10px 10px 4px #1b7751);
 }
 
 /*=============== About ===============*/
@@ -221,12 +223,15 @@ nav ul li:hover::after {
   height: 49%;
   top: 77%;
   left: 20%;
+  filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
 .team_img {
   background-color: var(--bio-background-color);
   padding: 1rem;
   margin-right: 3rem;
+  /* box-shadow: 0 10px 20px hsla(219, 48%, 8%, 0.1); */
+  filter: drop-shadow(15px 15px 4px #1b7751);
 }
 
 .info__container {
@@ -234,6 +239,8 @@ nav ul li:hover::after {
   padding: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  /* box-shadow: 0 10px 20px hsla(219, 48%, 8%, 0.1); */
+  filter: drop-shadow(15px 15px 4px #1b7751);
 }
 
 img {
@@ -512,7 +519,7 @@ img {
     font-size: var(--body-font-size);
   }
   .section__title {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .bio__description {
     font-size: var(--body-font-size);
@@ -523,11 +530,11 @@ img {
     left: 21%;
   }
   .white__background_1 {
-    top: 53%;
+    top: 50%;
     height: 30rem;
   }
   .white__background_2 {
-    top: 168%;
+    top: 145%;
     height: 15rem;
   }
   .subcontainer {
