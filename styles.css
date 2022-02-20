@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --main-bg-color: #56c596;
+  --body-font-color: #fff;
+  --bio-body-font-color: black;
+  --bio-background-color: #f2f4e7;
+  --background-bubble-color: rgb(255, 255, 255, 30%);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Lato', sans-serif;
+  --biggest-font-size: 1.75rem;
+  --title-font-size: 1.5rem;
+  --body-font-size: 1.3rem;
+}
+
+/*=============== Base ===============*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--main-bg-color);
+}
+
+/*=============== Navigation ===============*/
+.banner {
+  background: var(--main-bg-color);
+  width: 100%;
+}
+
+nav {
+  background: var(--main-bg-color);
+  width: 85%;
+  margin: auto;
+}
+
+label.logo {
+  color: #fff;
+  font-size: 1.7rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 5rem;
+  margin: 0 3rem;
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+nav ul li::after {
+  content: '';
+  height: 0.2rem;
+  width: 0;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+.checkbtn {
+  position: relative;
+  font-size: 1.8rem;
+  color: #fff;
+  float: right;
+  line-height: 5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/*=============== Background ===============*/
+.circle {
+  position: absolute;
+  background-color: var(--background-bubble-color);
+  border-radius: 3rem;
+}
+
+.circle1 {
+  left: 2%;
+  top: 45%;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.circle2 {
+  left: 10%;
+  top: 18%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.circle3 {
+  left: 70%;
+  top: 15%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.circle4 {
+  left: 89%;
+  top: 25%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.circle5 {
+  left: 14%;
+  top: 94%;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.circle6 {
+  left: 90%;
+  top: 114%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.white__background_1 {
+  background-image: url(img/bio_background_1.png);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 45%;
+  height: 25rem;
+  background-repeat: no-repeat;
+}
+
+.white__background_2 {
+  background-image: url(img/bio_background_2.png);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 128%;
+  height: 15rem;
+  background-repeat: no-repeat;
+}
+
+/*=============== About ===============*/
+
+.about__container {
+  margin: 3rem 10rem 3rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.subcontainer {
+  margin-top: 5rem;
+}
+
+.button {
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 20rem;
+  font-size: var(--title-font-size);
+  background-color: rgb(181, 233, 216, 50%);
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about__description {
+  color: var(--body-font-color);
+  font-size: var(--body-font-size);
+  padding-left: 1rem;
+}
+
+.section__title {
+  position: relative;
+  padding: 3rem 0 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bio__subcontainer {
+  position: relative;
+}
+
+.bio__description {
+  padding: 0 1rem;
+  margin-bottom: 27.5rem;
+  font-size: 1.1rem;
+}
+
+.bio__img {
+  position: absolute;
+  width: 58%;
+  height: 49%;
+  top: 77%;
+  left: 20%;
+}
+
+.team_img {
+  background-color: var(--bio-background-color);
+  padding: 1rem;
+  margin-right: 3rem;
+}
+
+.info__container {
+  background-color: var(--bio-background-color);
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 18rem;
+  height: 17rem;
+}
+
+.member__name {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.member__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.member__description {
+  font-size: 1rem;
+  padding: 3rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 479px) {
+  .about__container {
+    margin: auto;
+    padding: 1rem;
+  }
+  .button {
+    font-size: 1.3rem;
+  }
+  .about__description {
+    font-size: 1.1rem;
+  }
+  .section__title {
+    font-size: 1.3rem;
+  }
+
+  .bio__img {
+    height: 10rem;
+    top: 75%;
+    left: 10%;
+    width: 80%;
+  }
+  .bio__description {
+    margin-bottom: 7rem;
+    font-size: 1rem;
+  }
+  .white__background_1 {
+    top: 56%;
+    width: 110%;
+  }
+  .white__background_2 {
+    top: 125%;
+    height: 8rem;
+    width: 110%;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .team_img {
+    margin: 0;
+  }
+  .member__name {
+    font-size: 1.2rem;
+  }
+  .member__description {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .member__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .about__container {
+    margin: 0rem;
+  }
+  .bio__img {
+    height: 12rem;
+    top: 55%;
+    left: 15%;
+    width: 70%;
+  }
+  .bio__description {
+    margin-bottom: 16rem;
+  }
+  .white__background_1 {
+    top: 56%;
+  }
+  .white__background_2 {
+    top: 135%;
+    height: 11rem;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 20rem;
+    height: 18rem;
+  }
+  .member__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: var(--title-font-size);
+  }
+  .member__description {
+    font-size: var(--body-font-size);
+  }
+  .member__container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 819px) {
+  .about__container {
+    margin: 0 2rem 3rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .bio__img {
+    height: 15rem;
+    top: 55%;
+    left: 21%;
+  }
+  .bio__description {
+    margin-bottom: 16rem;
+  }
+  .white__background_1 {
+    top: 50%;
+    height: 26rem;
+  }
+  .white__background_2 {
+    top: 132%;
+    height: 11rem;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 20rem;
+    height: 18rem;
+  }
+  .member__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: var(--title-font-size);
+  }
+  .member__description {
+    font-size: var(--body-font-size);
+  }
+  .member__container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 995px) {
+  .about__container {
+    margin: 3rem 4rem 3rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .bio__img {
+    top: 50%;
+    left: 15%;
+    width: 70%;
+  }
+  .bio__description {
+    margin-bottom: 18rem;
+  }
+  .white__background_1 {
+    top: 50%;
+    height: 30rem;
+  }
+  .white__background_2 {
+    top: 137%;
+    height: 11rem;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 20rem;
+    height: 18rem;
+  }
+  .member__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: var(--title-font-size);
+  }
+  .member__description {
+    font-size: var(--body-font-size);
+  }
+  .member__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1149px) {
+  label.logo {
+    font-size: 1.8rem;
+    line-height: 7rem;
+  }
+  nav ul li a {
+    font-size: var(--body-font-size);
+    line-height: 7rem;
+  }
+  .button {
+    width: 20rem;
+    font-size: var(--title-font-size);
+  }
+  .about__description {
+    font-size: var(--body-font-size);
+  }
+  .section__title {
+    font-size: 2rem;
+  }
+  .bio__description {
+    font-size: var(--body-font-size);
+    margin-bottom: 30rem;
+  }
+  .bio__img {
+    top: 42%;
+    left: 9%;
+    width: 80%;
+  }
+  .white__background_1 {
+    top: 56%;
+    height: 30rem;
+  }
+  .white__background_2 {
+    top: 175%;
+    height: 15rem;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 20rem;
+    height: 18rem;
+  }
+  .member__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: var(--title-font-size);
+  }
+  .member__description {
+    font-size: var(--body-font-size);
+  }
+  .member__container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 2228px) {
+  label.logo {
+    font-size: 1.3rem;
+    line-height: 7rem;
+  }
+  nav ul li a {
+    font-size: 1rem;
+    line-height: 7rem;
+  }
+  .button {
+    width: 20rem;
+    font-size: var(--body-font-size);
+  }
+  .about__description {
+    font-size: var(--body-font-size);
+  }
+  .section__title {
+    font-size: 2.2rem;
+  }
+  .bio__description {
+    font-size: var(--body-font-size);
+    margin-bottom: 30rem;
+  }
+  .bio__img {
+    top: 40%;
+    left: 21%;
+  }
+  .white__background_1 {
+    top: 53%;
+    height: 30rem;
+  }
+  .white__background_2 {
+    top: 168%;
+    height: 15rem;
+  }
+  .subcontainer {
+    margin-top: 5rem;
+  }
+  img {
+    width: 20rem;
+    height: 18rem;
+  }
+  .member__name {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+  .member__description {
+    font-size: 1rem;
+  }
+}
+
+/* Nav bar */
+@media screen and (max-width: 1000px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 3;
+  }
+  nav ul li {
+    width: 0;
+    display: block;
+    margin: auto;
+    line-height: 45px;
+    padding-top: 5.2rem;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: var(--main-bg-color);
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
