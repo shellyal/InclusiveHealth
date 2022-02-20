@@ -3,7 +3,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --main-bg-color: #56c596;
+  --main-bg-color: linear-gradient(#56c596, #267c6d);
   --body-font-color: #fff;
   --bio-body-font-color: black;
   --bio-background-color: #f2f4e7;
@@ -37,7 +37,6 @@ body {
 }
 
 nav {
-  background: var(--main-bg-color);
   width: 85%;
   margin: auto;
 }
@@ -110,48 +109,72 @@ nav ul li:hover::after {
   height: 1.2rem;
   width: 1.2rem;
 }
-
 .circle2 {
   left: 10%;
-  top: 18%;
+  top: 15%;
   height: 1rem;
   width: 1rem;
 }
-
 .circle3 {
   left: 70%;
   top: 15%;
   height: 1rem;
   width: 1rem;
 }
-
 .circle4 {
   left: 89%;
   top: 25%;
   height: 3rem;
   width: 3rem;
 }
-
 .circle5 {
   left: 14%;
   top: 94%;
   height: 3.5rem;
   width: 3.5rem;
 }
-
 .circle6 {
   left: 90%;
   top: 114%;
   height: 1.5rem;
   width: 1.5rem;
 }
-
+.circle7 {
+  left: 6%;
+  top: 134%;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.circle8 {
+  left: 2%;
+  top: 174%;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.circle9 {
+  left: 95%;
+  top: 204%;
+  height: 1rem;
+  width: 1rem;
+}
+.circle10 {
+  left: 5%;
+  top: 274%;
+  height: 0.5rem;
+  width: 0.5rem;
+}
+.circle11 {
+  left: 95%;
+  top: 324%;
+  height: 3rem;
+  width: 3rem;
+}
 .white__background_1 {
   background-image: url(img/bio_background_1.png);
   width: 100%;
   position: absolute;
   left: 0;
-  top: 45%;
+  top: 50%;
   height: 25rem;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
@@ -162,7 +185,7 @@ nav ul li:hover::after {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 128%;
+  top: 143%;
   height: 15rem;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
@@ -171,7 +194,7 @@ nav ul li:hover::after {
 /*=============== About ===============*/
 
 .about__container {
-  margin: 3rem 10rem 3rem;
+  margin: 3rem 5rem 0rem;
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -226,12 +249,16 @@ nav ul li:hover::after {
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
+.meettheteam__title {
+  margin-bottom: 7rem;
+}
+
 .team_img {
   background-color: var(--bio-background-color);
   padding: 1rem;
   margin-right: 3rem;
-  /* box-shadow: 0 10px 20px hsla(219, 48%, 8%, 0.1); */
-  filter: drop-shadow(15px 15px 4px #1b7751);
+  filter: drop-shadow(15px 15px 4px #1d5e53);
+  border-radius: 1rem;
 }
 
 .info__container {
@@ -239,18 +266,19 @@ nav ul li:hover::after {
   padding: 0.5rem;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  /* box-shadow: 0 10px 20px hsla(219, 48%, 8%, 0.1); */
-  filter: drop-shadow(15px 15px 4px #1b7751);
+  filter: drop-shadow(15px 15px 4px #1d5e53);
+  border-radius: 1rem;
 }
 
 img {
-  width: 18rem;
-  height: 17rem;
+  width: 14rem;
+  height: 12rem;
 }
 
 .member__name {
   text-align: center;
   margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .member__container {
@@ -261,8 +289,8 @@ img {
 }
 
 .member__description {
-  font-size: 1rem;
-  padding: 3rem;
+  font-size: 0.9rem;
+  padding: 2rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -322,7 +350,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 599px) {
+@media screen and (min-width: 480px) and (max-width: 739px) {
   .about__container {
     margin: 0rem;
   }
@@ -361,7 +389,7 @@ img {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 819px) {
+@media screen and (min-width: 740px) and (max-width: 819px) {
   .about__container {
     margin: 0 2rem 3rem;
     padding: 3rem;
@@ -489,6 +517,7 @@ img {
     width: 20rem;
     height: 18rem;
   }
+
   .member__name {
     text-align: center;
     margin-top: 2rem;
@@ -528,29 +557,6 @@ img {
   .bio__img {
     top: 40%;
     left: 21%;
-  }
-  .white__background_1 {
-    top: 50%;
-    height: 30rem;
-  }
-  .white__background_2 {
-    top: 145%;
-    height: 15rem;
-  }
-  .subcontainer {
-    margin-top: 5rem;
-  }
-  img {
-    width: 20rem;
-    height: 18rem;
-  }
-  .member__name {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 1.8rem;
-  }
-  .member__description {
-    font-size: 1rem;
   }
 }
 
