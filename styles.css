@@ -253,14 +253,6 @@ nav ul li:hover::after {
   margin-bottom: 7rem;
 }
 
-.team_img {
-  background-color: var(--bio-background-color);
-  padding: 1rem;
-  margin-right: 3rem;
-  filter: drop-shadow(15px 15px 4px #1d5e53);
-  border-radius: 1rem;
-}
-
 .info__container {
   background-color: var(--bio-background-color);
   padding: 0.5rem;
@@ -270,9 +262,14 @@ nav ul li:hover::after {
   border-radius: 1rem;
 }
 
-img {
-  width: 14rem;
-  height: 12rem;
+.team__img {
+  background-color: var(--bio-background-color);
+  padding: 1rem;
+  margin-right: 3rem;
+  filter: drop-shadow(15px 15px 4px #1d5e53);
+  border-radius: 1rem;
+  width: 15rem;
+  height: 14rem;
 }
 
 .member__name {
@@ -331,12 +328,10 @@ img {
   .subcontainer {
     margin-top: 5rem;
   }
-  img {
+  .team__img {
+    margin: 0;
     width: 15rem;
     height: 15rem;
-  }
-  .team_img {
-    margin: 0;
   }
   .member__name {
     font-size: 1.2rem;
@@ -373,7 +368,8 @@ img {
   .subcontainer {
     margin-top: 5rem;
   }
-  img {
+  .team__img {
+    margin-right: 0;
     width: 20rem;
     height: 18rem;
   }
@@ -415,7 +411,8 @@ img {
   .subcontainer {
     margin-top: 5rem;
   }
-  img {
+  .team__img {
+    margin-right: 0;
     width: 20rem;
     height: 18rem;
   }
@@ -457,7 +454,8 @@ img {
   .subcontainer {
     margin-top: 5rem;
   }
-  img {
+  .team__img {
+    margin-right: 0;
     width: 20rem;
     height: 18rem;
   }
@@ -513,11 +511,9 @@ img {
   .subcontainer {
     margin-top: 5rem;
   }
-  img {
-    width: 20rem;
-    height: 18rem;
+  .team__img {
+    margin-right: 0;
   }
-
   .member__name {
     text-align: center;
     margin-top: 2rem;
