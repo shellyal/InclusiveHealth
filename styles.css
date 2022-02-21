@@ -596,3 +596,8 @@ img {
     left: 0;
   }
 }
+
+/*Single Article Page*/
+.single-heading{
+ margin: 2rem;
+}
