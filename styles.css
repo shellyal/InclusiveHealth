@@ -12,7 +12,8 @@
   /*========== Font and typography ==========*/
   --body-font: 'Lato', sans-serif;
   --biggest-font-size: 1.75rem;
-  --title-font-size: 1.5rem;
+  --title-font-size: 1.7rem;
+  --subtitle-font-size: 1.3rem;
   --body-font-size: 1.1rem;
 }
 
@@ -73,7 +74,7 @@ nav ul li::after {
   background: #fff;
   position: absolute;
   left: 0;
-  bottom: 2.2rem;
+  bottom: 1.5rem;
   transition: 0.5s;
 }
 
@@ -208,7 +209,7 @@ nav ul li:hover::after {
   padding: 1rem;
   border-radius: 2rem;
   width: 20rem;
-  font-size: var(--title-font-size);
+  font-size: var(--subtitle-font-size);
   background-color: rgb(181, 233, 216, 50%);
   color: #fff;
   border: none;
@@ -237,7 +238,7 @@ nav ul li:hover::after {
 .bio__description {
   padding: 0 1rem;
   margin-bottom: 27.5rem;
-  font-size: 1.1rem;
+  font-size: var(--body-font-size);
 }
 
 .bio__img {
@@ -298,12 +299,6 @@ img {
   .about__container {
     margin: auto;
     padding: 1rem;
-  }
-  .button {
-    font-size: 1.3rem;
-  }
-  .about__description {
-    font-size: 1.1rem;
   }
   .section__title {
     font-size: 1.3rem;
@@ -475,45 +470,21 @@ img {
 }
 
 @media screen and (min-width: 995px) and (max-width: 1149px) {
-  label.logo {
-    font-size: 1.8rem;
-    line-height: 7rem;
-  }
-  nav ul li a {
-    font-size: var(--body-font-size);
-    line-height: 7rem;
-  }
-  .button {
-    width: 20rem;
-    font-size: var(--title-font-size);
-  }
-  .about__description {
-    font-size: var(--body-font-size);
-  }
-  .section__title {
-    font-size: 2rem;
-  }
-  .bio__description {
-    font-size: var(--body-font-size);
-    margin-bottom: 30rem;
-  }
   .bio__img {
     top: 42%;
     left: 9%;
     width: 80%;
   }
   .white__background_1 {
-    top: 56%;
+    top: 41%;
     height: 30rem;
   }
   .white__background_2 {
-    top: 175%;
+    top: 130%;
     height: 15rem;
   }
-  .subcontainer {
-    margin-top: 5rem;
-  }
-  img {
+
+  .team_img {
     width: 20rem;
     height: 18rem;
   }
@@ -532,24 +503,6 @@ img {
 }
 
 @media only screen and (min-width: 1150px) and (max-width: 2228px) {
-  label.logo {
-    font-size: 1.3rem;
-    line-height: 7rem;
-  }
-  nav ul li a {
-    font-size: 1rem;
-    line-height: 7rem;
-  }
-  .button {
-    width: 20rem;
-    font-size: var(--body-font-size);
-  }
-  .about__description {
-    font-size: var(--body-font-size);
-  }
-  .section__title {
-    font-size: 2rem;
-  }
   .bio__description {
     font-size: var(--body-font-size);
     margin-bottom: 30rem;
@@ -557,6 +510,12 @@ img {
   .bio__img {
     top: 40%;
     left: 21%;
+  }
+  .white__background_1 {
+    top: 43%;
+  }
+  .white__background_2 {
+    top: 127%;
   }
 }
 
