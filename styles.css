@@ -73,7 +73,7 @@ nav ul li::after {
   background: #fff;
   position: absolute;
   left: 0;
-  bottom: 2.2rem;
+  bottom: 1.5rem;
   transition: 0.5s;
 }
 
