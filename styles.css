@@ -174,7 +174,7 @@ nav ul li:hover::after {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 44%;
   height: 25rem;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
@@ -185,7 +185,7 @@ nav ul li:hover::after {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 143%;
+  top: 66rem;
   height: 15rem;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
@@ -244,7 +244,7 @@ nav ul li:hover::after {
   position: absolute;
   width: 58%;
   height: 49%;
-  top: 77%;
+  top: 16rem;
   left: 20%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
@@ -292,91 +292,66 @@ nav ul li:hover::after {
 
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 479px) {
+  .banner {
+    width: 110%;
+  }
   .about__container {
-    margin: auto;
-    padding: 1rem;
-  }
-  .button {
-    font-size: 1.3rem;
-  }
-  .about__description {
-    font-size: 1.1rem;
-  }
-  .section__title {
-    font-size: 1.3rem;
+    margin: 0;
   }
 
-  .bio__img {
-    height: 10rem;
-    top: 75%;
-    left: 10%;
-    width: 80%;
-  }
   .bio__description {
-    margin-bottom: 7rem;
+    margin-bottom: 9rem;
     font-size: 1rem;
   }
+  .bio__img {
+    top: 75%;
+    left: 2rem;
+    width: 20rem;
+  }
+  .subcontainer {
+    margin-top: 10rem;
+  }
   .white__background_1 {
-    top: 56%;
+    top: 26rem;
     width: 110%;
   }
   .white__background_2 {
-    top: 125%;
-    height: 8rem;
+    top: 63rem;
     width: 110%;
   }
-  .subcontainer {
-    margin-top: 5rem;
+  .meettheteam__title {
+    margin-bottom: 5rem;
   }
   .team__img {
     margin: 0;
-    width: 15rem;
-    height: 15rem;
-  }
-  .member__name {
-    font-size: 1.2rem;
-  }
-  .member__description {
-    font-size: 1rem;
-    padding: 1rem;
   }
   .member__container {
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 739px) {
+@media screen and (min-width: 480px) and (max-width: 600px) {
   .about__container {
     margin: 0rem;
   }
-  .bio__img {
-    height: 12rem;
-    top: 55%;
-    left: 15%;
-    width: 70%;
-  }
-  .bio__description {
-    margin-bottom: 16rem;
-  }
   .white__background_1 {
-    top: 56%;
+    top: 22rem;
   }
   .white__background_2 {
-    top: 135%;
-    height: 11rem;
+    top: 58rem;
   }
-  .subcontainer {
-    margin-top: 5rem;
+  .bio__img {
+    width: 87%;
+    height: 35%;
+    top: 18rem;
+    left:8%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
+  }
+  .bio__description {
+    margin-bottom: 15rem;
   }
   .team__img {
     margin-right: 0;
-    width: 20rem;
-    height: 18rem;
-  }
-  .member__name {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: var(--title-font-size);
   }
   .member__description {
     font-size: var(--body-font-size);
@@ -385,41 +360,28 @@ nav ul li:hover::after {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 740px) and (max-width: 819px) {
+@media screen and (min-width: 601px) and (max-width: 800px) {
   .about__container {
-    margin: 0 2rem 3rem;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .bio__img {
-    height: 15rem;
-    top: 55%;
-    left: 21%;
-  }
-  .bio__description {
-    margin-bottom: 16rem;
+    margin: 0rem;
   }
   .white__background_1 {
-    top: 50%;
-    height: 26rem;
+    top: 22rem;
   }
   .white__background_2 {
-    top: 132%;
-    height: 11rem;
+    top: 56rem;
   }
-  .subcontainer {
-    margin-top: 5rem;
+  .bio__img {
+    width: 87%;
+    height: 35%;
+    top: 18rem;
+    left:8%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
   }
+.bio__description {
+  margin-bottom: 15rem;
+}
   .team__img {
     margin-right: 0;
-    width: 20rem;
-    height: 18rem;
-  }
-  .member__name {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: var(--title-font-size);
   }
   .member__description {
     font-size: var(--body-font-size);
@@ -428,131 +390,39 @@ nav ul li:hover::after {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 820px) and (max-width: 995px) {
-  .about__container {
-    margin: 3rem 4rem 3rem;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .bio__img {
-    top: 50%;
-    left: 15%;
-    width: 70%;
-  }
-  .bio__description {
-    margin-bottom: 18rem;
-  }
+ 
+@media screen and (min-width: 801px) and (max-width: 995px) {
   .white__background_1 {
-    top: 50%;
-    height: 30rem;
+    top: 24rem;
   }
   .white__background_2 {
-    top: 137%;
-    height: 11rem;
+    top: 70rem;
   }
-  .subcontainer {
-    margin-top: 5rem;
+  .bio__img {
+    left: 5rem;
+    width: 30rem;
+    height: 18rem;
   }
   .team__img {
     margin-right: 0;
-    width: 20rem;
-    height: 18rem;
-  }
-  .member__name {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: var(--title-font-size);
-  }
-  .member__description {
-    font-size: var(--body-font-size);
   }
   .member__container {
     flex-direction: column;
   }
 }
 
-@media screen and (min-width: 995px) and (max-width: 1149px) {
-  label.logo {
-    font-size: 1.8rem;
-    line-height: 7rem;
-  }
-  nav ul li a {
-    font-size: var(--body-font-size);
-    line-height: 7rem;
-  }
-  .button {
-    width: 20rem;
-    font-size: var(--title-font-size);
-  }
-  .about__description {
-    font-size: var(--body-font-size);
-  }
-  .section__title {
-    font-size: 2rem;
-  }
-  .bio__description {
-    font-size: var(--body-font-size);
-    margin-bottom: 30rem;
-  }
-  .bio__img {
-    top: 42%;
-    left: 9%;
-    width: 80%;
-  }
+@media screen and (min-width: 995px) and (max-width: 1349px) {
   .white__background_1 {
-    top: 56%;
-    height: 30rem;
+    top: 21rem;
   }
   .white__background_2 {
-    top: 175%;
-    height: 15rem;
-  }
-  .subcontainer {
-    margin-top: 5rem;
+    top: 67rem;
   }
   .team__img {
     margin-right: 0;
   }
-  .member__name {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: var(--title-font-size);
-  }
-  .member__description {
-    font-size: var(--body-font-size);
-  }
   .member__container {
     flex-direction: column;
-  }
-}
-
-@media only screen and (min-width: 1150px) and (max-width: 2228px) {
-  label.logo {
-    font-size: 1.3rem;
-    line-height: 7rem;
-  }
-  nav ul li a {
-    font-size: 1rem;
-    line-height: 7rem;
-  }
-  .button {
-    width: 20rem;
-    font-size: var(--body-font-size);
-  }
-  .about__description {
-    font-size: var(--body-font-size);
-  }
-  .section__title {
-    font-size: 2rem;
-  }
-  .bio__description {
-    font-size: var(--body-font-size);
-    margin-bottom: 30rem;
-  }
-  .bio__img {
-    top: 40%;
-    left: 21%;
   }
 }
 
