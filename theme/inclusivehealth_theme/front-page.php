@@ -41,7 +41,7 @@
           </div>
 
           <div class="member__container">
-            <img src="assets/images/emily.png" alt="" class="team__img" />
+            <img src="<?php echo home_url(); ?>/wp-content/themes/inclusivehealth/assets/images/emily.png" alt="" class="team__img" />
             <div class="info__container">
               <h2 class="member__name">Emily Duh</h2>
               <p class="member__description">Emily Duh is currently a senior at Purdue University pursuing a Bachelor of Science in User Experience Design and a minor in Psychology. She is a Silicon Valley born and raised  interaction designer focused on producing accessible and aesthetically pleasing designs. Her background and hobbies in pop culture and art encourage storytelling and creative thinking, aiding her while she works on bringing projects to life. Feel free to reach out to Emily through her email at duhe@purdue.edu.</p>
@@ -49,7 +49,7 @@
           </div>
 
           <div class="member__container">
-            <img src="assets/images/heera.png" alt="" class="team__img" />
+            <img src="<?php echo site_url(); ?>/wp-content/themes/inclusivehealth/assets/images/heera.png" alt="" class="team__img" >
             <div class="info__container">
               <h2 class="member__name">Heera Choi</h2>
               <p class="member__description">Heera Choi is a senior undergraduate student at Purdue University pursuing a Web Programming & Design and minoring in Computer Science. She is from South Korea and came to the United States to learn more in an open culture. With a Computer Science minor, she has a deep understanding of programming. In combination with her major, she can write effective and creatively designed websites. Feel free to contact Heera to her email at choi464@purdue.edu. </p>
@@ -57,7 +57,7 @@
           </div>
 
           <div class="member__container">
-            <img src="<?php echo get_template_directory_uri(); ?> /assets/images/russhell.png" alt="" class="team__img" />
+            <img src="http://box2312.temp.domains/~inclust8/wp-content/uploads/russhell.png alt="" class="team__img" />
             <div class="info__container">
               <h2 class="member__name">Russhell Campbell</h2>
               <p class="member__description">From Metro Detroit, Michigan, Russhell traveled to West Lafayette, Indiana to pursue a degree at Purdue University in Web Programming & Design. She’s also pursuing a minor in Management. Russhell developed capabilities in developing and executing web applications using programming languages and frameworks such as HTML, CSS, Javascript, React, Vue, and Python. She aims to manufacture applications to provide concise communication between clients’ and their consumers. Outside of programming, Russhell enjoys relaxing with her puppy, Rapha, reading, and playing video games. To contact Russhell, via email is preferred: campb355@purdue.edu </p>
