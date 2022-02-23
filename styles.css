@@ -293,6 +293,12 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
+.article__container {
+  width: 100%;
+  /* height: 200vh; */
+  /* max-height: 100vh; */
+  /* margin: 0 5rem; */
+}
 .article__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
@@ -304,12 +310,36 @@ nav ul li:hover::after {
   color: #fff;
   border: none;
   text-align: center;
-  margin: 5rem 10rem 3rem;
+  margin: 6rem 8rem 3rem;
 }
-.article__container {
-  width: 100%;
-  /* margin: 0 5rem; */
+.articles__filters{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem 3rem 1rem 7rem;
 }
+.article__item {
+  cursor: pointer;
+  letter-spacing: 1px;
+  /* box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%); */
+  padding: .5rem;
+  border-radius: 2rem;
+  width: 9rem;
+  font-size: 1rem;
+  background-color: rgb(181, 233, 216, 50%);
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin: 1rem;
+  /* border: 5px solid #; */
+  /* border-radius: 0.5rem; */
+}
+/* Active item work*/
+.active-work {
+  border: 3px solid rgb(29, 94, 83, 80%);
+  box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,30%); 
+}
+
 .article__box{
   display: flex;
   flex-direction: row;
@@ -320,45 +350,47 @@ nav ul li:hover::after {
   justify-content: center;
 }
 .articles__post {
-  max-width: 30rem;
-  padding: 2rem;
+  max-width: 22rem;
+  height: 15rem;
+  padding: 1.5rem;
   background-color: rgb(255, 255, 255, 92%);
-  box-shadow: 0 0.4rem 2rem rgba(0,0,0.2);
+  box-shadow: 0 0.2rem 1rem rgba(0,0,0.2);
   display: flex;
   align-items: center;
   border-radius: .8rem;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 .articles__post__date span {
   display: block;
   color: rgba(0,0,0,0.5);
-  font-size: 1rem;
+  font-size: .7rem;
   font-weight: 600;
-  margin: .2rem 0;
+  margin: .1rem 0;
 }
 
 .articles__post__title{ 
-  font-size: var(--title-font-size);
-  margin: 1rem 0 0.4rem;
+  font-size: var(--body-font-size);
+  margin: .5rem 0;
   text-transform: uppercase;
   color: #56c596;
 }
 
 .articles__post__text {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: .8rem;
   color: rgba(0,0,0,.7);
 }
 
 .article__link {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: .8rem 1.5rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size:var(--body-font-size);
   color: #fff;
   background-image: linear-gradient(to right, #56c596 0%, #267c6d 100%);
   border-radius: .8rem;
+  font-size: 1rem;
 }
 .article__link:hover{
   background-image: linear-gradient(to right, #267c6d 0%, #56c596 100%);
