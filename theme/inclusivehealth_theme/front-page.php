@@ -17,7 +17,7 @@
             quis nostrud. Excepteur sint occaecat cupidatat non proident, sunt
             in culpa.
           </p>
-          <img src="<?php echo site_url(); ?>/wp-content/themes/inclusivehealth_theme/assets/images/together.jpg" alt="" class="team__img" >
+          <img src="<?php echo site_url(); ?>/wp-content/themes/inclusivehealth_theme/assets/images/together.jpg" alt="" class="bio__img" >
 
         </div>
 
