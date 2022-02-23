@@ -1,3 +1,5 @@
+const { $CombinedState } = require('redux');
+
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.article__box', {
   selectors: {
