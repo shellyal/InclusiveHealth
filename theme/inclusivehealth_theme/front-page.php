@@ -57,7 +57,7 @@
           </div>
 
           <div class="member__container">
-            <img src="assets/images/russhell.png" alt="" class="team__img" />
+            <img src="<?php echo get_template_directory_uri(); ?> /assets/images/russhell.png" alt="" class="team__img" />
             <div class="info__container">
               <h2 class="member__name">Russhell Campbell</h2>
               <p class="member__description">From Metro Detroit, Michigan, Russhell traveled to West Lafayette, Indiana to pursue a degree at Purdue University in Web Programming & Design. She’s also pursuing a minor in Management. Russhell developed capabilities in developing and executing web applications using programming languages and frameworks such as HTML, CSS, Javascript, React, Vue, and Python. She aims to manufacture applications to provide concise communication between clients’ and their consumers. Outside of programming, Russhell enjoys relaxing with her puppy, Rapha, reading, and playing video games. To contact Russhell, via email is preferred: campb355@purdue.edu </p>
@@ -65,7 +65,7 @@
           </div>
 
           <div class="member__container">
-            <img src="assets/images/victoria.png" alt="" class="team__img" />
+            <img src="/assets/images/victoria.png" alt="" class="team__img" />
             <div class="info__container">
               <h2 class="member__name">Victoria Gromek</h2>
               <p class="member__description">Victoria Gromek is a senior at Purdue University majoring in Web Programming & Design. She’s also pursuing a major in Psychological Sciences. She is passionate about creativity, music, cats, and people. Her family encourages her the most to be the best she can be. Her focus shifted more to wanting to help others when she decided to add another major that meant a lot to her growing up. She is actively working to utilize both majors into something she is proud of that will benefit others. Her hobbies include painting, cooking, and helping out her sisters of Sigma Delta Tau. You can always find her with any one of her sisters that come from a variety of backgrounds and majors learning more about herself and the world around her. Victoria is also the current secretary of her chapter serving the term from Spring 2021 to Fall 2021. She is always willing to help others and do what she can, even if it's as simple as taking a walk with someone. Feel free to contact Victoria at vgromek@purdue.edu.</p>
