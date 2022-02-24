@@ -141,7 +141,7 @@ nav ul li:hover::after {
 }
 .circle5 {
   left: 14%;
-  top: 94%;
+  top: 91%;
   height: 3.5rem;
   width: 3.5rem;
 }
@@ -186,7 +186,7 @@ nav ul li:hover::after {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 44%;
+  top: 22rem;
   height: 25rem;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
@@ -254,10 +254,10 @@ nav ul li:hover::after {
 
 .bio__img {
   position: absolute;
-  width: 58%;
-  height: 49%;
+  width: 40rem;
+  height: 22rem;
   top: 16rem;
-  left: 20%;
+  left: 26%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
@@ -499,9 +499,10 @@ nav ul li:hover::after {
     font-size: 1rem;
   }
   .bio__img {
-    top: 75%;
-    left: 2rem;
-    width: 20rem;
+    width: 16rem;
+    height: 10rem;
+    top: 18rem;
+    left: 3rem;
   }
   .subcontainer {
     margin-top: 10rem;
@@ -511,7 +512,7 @@ nav ul li:hover::after {
     width: 110%;
   }
   .white__background_2 {
-    top: 63rem;
+    top: 65rem;
     width: 110%;
   }
   .meettheteam__title {
@@ -555,10 +556,10 @@ nav ul li:hover::after {
     top: 58rem;
   }
   .bio__img {
-    width: 87%;
-    height: 35%;
+    width: 18rem;
+    height: 13rem;
     top: 18rem;
-    left:8%;
+    left:19%;
     filter: drop-shadow(0px 10px 4px #1b7751);
   }
   .bio__description {
@@ -587,7 +588,7 @@ nav ul li:hover::after {
     margin: .7rem;
   }
   .articles__filters{
-    margin: 1rem 2rem 0rem 4rem;
+    margin: 1rem 0rem 0rem 4rem;
   }
   .footer__list {
     column-gap: 2rem;
@@ -605,10 +606,10 @@ nav ul li:hover::after {
     top: 56rem;
   }
   .bio__img {
-    width: 87%;
-    height: 35%;
+    width: 25rem;
+    height: 13rem;
     top: 18rem;
-    left:8%;
+    left:21%;
     filter: drop-shadow(0px 10px 4px #1b7751);
   }
   .bio__description {
@@ -646,7 +647,7 @@ nav ul li:hover::after {
     top: 70rem;
   }
   .bio__img {
-    left: 5rem;
+    left: 12%;
     width: 30rem;
     height: 18rem;
   }
@@ -664,6 +665,9 @@ nav ul li:hover::after {
   }
   .white__background_2 {
     top: 67rem;
+  }
+  .bio__img {
+    left: 20%;
   }
   .team__img {
     margin-right: 0;
