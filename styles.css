@@ -72,8 +72,11 @@ nav ul li a:hover {
 }
 
 .current {
-  color:#1d5e53e6;
+  color:rgba(41, 83, 76);
   font-weight: 800;
+  /* box-shadow: 2 0 16px #1b7751; */
+  /* filter: drop-shadow(10px 10px 4px #1b7751); */
+
 }
 
 nav ul li::after {
@@ -421,27 +424,23 @@ nav ul li:hover::after {
 .footer {
   background-color: #56c596;
 }
-
 .footer__container {
   padding: 4rem 0;
 }
-
-.footer__link {
-  color: #fff;
-}
-
 .footer__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 6rem;
-  /* margin: 1rem; */
+  margin: 1rem;
 }
-
+.footer__link {
+  color: #fff;
+  margin-bottom: 3rem;
+}
 .footer__link:hover {
   color:#1d5e53;
 }
-
 .footer__social-link {
   background-color: #267c6d;
   color: #fff;
@@ -458,7 +457,7 @@ nav ul li:hover::after {
   .checkbtn {
     display: block;
   }
-  ul {
+  .navigation {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -469,7 +468,7 @@ nav ul li:hover::after {
     transition: all 0.5s;
     z-index: 3;
   }
-  nav ul li {
+  .navigation__li {
     width: 0;
     display: block;
     margin: auto;
@@ -477,7 +476,7 @@ nav ul li:hover::after {
     padding-top: 5.2rem;
   }
 
-  nav ul li a {
+  .navigation__a {
     font-size: 20px;
   }
   a:hover,
@@ -485,7 +484,8 @@ nav ul li:hover::after {
     background: none;
     color: var(--main-bg-color);
   }
-  nav ul li a:hover {
+  nav ul li a:hover,
+  .current {
     color:#56c596;
   }
   
@@ -530,6 +530,9 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
+  .footer__list {
+    column-gap: 2rem;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
@@ -560,6 +563,9 @@ nav ul li:hover::after {
   }
   .member__container {
     flex-direction: column;
+  }
+  .footer__list {
+    column-gap: 2rem;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 800px) {
@@ -600,6 +606,9 @@ nav ul li:hover::after {
     max-width: 100%;
     transform: translate(0, -8rem);
   }
+  .footer__list {
+    column-gap: 3rem;
+  }
 }
  
 @media screen and (min-width: 801px) and (max-width: 995px) {
@@ -620,9 +629,6 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
-  /* .articles__post {
-    max-width: 70rem;
-  } */
 }
 
 @media screen and (min-width: 995px) and (max-width: 1349px) {

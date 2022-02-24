@@ -1,5 +1,3 @@
-const { $CombinedState } = require('redux');
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.article__box', {
   selectors: {
@@ -10,7 +8,7 @@ let mixerPortfolio = mixitup('.article__box', {
   },
 });
 
-/* Link active work */
+/* Link active work in Articles page*/
 const linkWork = document.querySelectorAll('.article__item');
 
 function activeWork() {
