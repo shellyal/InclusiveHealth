@@ -348,14 +348,17 @@ nav ul li:hover::after {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
-  margin-top: 34rem;
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 120px;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 80px;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .subcontainer {
@@ -370,11 +373,11 @@ nav ul li:hover::after {
   padding: 0 20rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
-  /* margin-left: 20rem; */
+
 }
 
 .home__faq {
-  padding: 0 1rem;
+  padding: 0 20rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
   text-align: center;
@@ -384,16 +387,37 @@ nav ul li:hover::after {
   position: absolute;
   width: 40rem;
   height: 22rem;
-  top: 15rem;
+  top: 12rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
-.home__img2 {
+.hands__img {
+  position: absolute;
+ width: 15rem;
+  height: 15rem;
+  filter: drop-shadow(0px 10px 4px #1b7751);
+}
+
+.strength__img {
+  position: absolute;
+ width: 15rem;
+  height: 15rem;
+  filter: drop-shadow(0px 10px 4px #1b7751);
+}
+
+.people__img {
+  position: absolute;
+ width: 15rem;
+  height: 15rem;
+  filter: drop-shadow(0px 10px 4px #1b7751);
+}
+
+.handheart__img {
   position: absolute;
   width: 40rem;
-  height: 22rem;
-  top: 18rem;
+  height: 20rem;
+  top: 20rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
