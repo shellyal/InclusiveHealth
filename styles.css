@@ -343,6 +343,39 @@ nav ul li:hover::after {
   margin: 1rem;
 }
 
+/*==========Home========*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.home__subcontainer {
+  position: relative;
+}
+
+.home__description {
+  padding: 0 1rem;
+  margin-bottom: 27.5rem;
+  font-size: 1.1rem;
+}
+
+.home__img {
+  position: absolute;
+  width: 40rem;
+  height: 22rem;
+  top: 16rem;
+  left: 26%;
+  filter: drop-shadow(0px 10px 4px #1b7751);
+}
+
 
 /* Active item work*/
 .active-work {
