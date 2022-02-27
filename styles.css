@@ -355,7 +355,7 @@ nav ul li:hover::after {
 
 .column {
   flex: 33.33%;
-  padding: 55px;
+  padding: 80px;
 }
 
 .subcontainer {
