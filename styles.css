@@ -521,8 +521,42 @@ nav ul li:hover::after {
 
 /*=============== Single Article Page ===============*/
 .single-heading{
- margin: 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 6rem;
+ margin-bottom: 2rem;
 }
+.single-heading h1{
+  font-size: 3rem;
+}
+ .single-article{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   background-color: #27AE60 ;
+   width: 50vw; /*Clamp this*/
+   height: 60vh;
+   margin: 0 auto;
+   border-radius: 5px;
+   padding: 3rem;
+ }
+ .single-article h2, .single-article h3, .single-article p{
+   margin-bottom: 1rem;
+ }
+ .single-button{
+   text-decoration: none;
+   background-color: var(--body-font-color);
+   height: 2rem;
+   margin-top: 5rem;
+   border-radius: 10px;
+   padding-left: 10rem;
+   padding-right: 10rem;
+   border: 2px solid #27AE60;
+   
+ }
+
 
 
 /*=============== FOOTER ===============*/
