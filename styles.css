@@ -30,6 +30,29 @@ body {
   background-color: var(--main-bg-color);
 }
 
+.body__container {
+  margin: 3rem 5rem 0rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+
+}
+
+.page__title {
+  letter-spacing: 3px;
+  box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,70%);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 24rem;
+  font-size: var(--title-font-size);
+  background-color: rgb(181, 233, 216, 10%);
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 /*=============== Navigation ===============*/
 .banner {
   background: var(--main-bg-color);
@@ -115,72 +138,84 @@ nav ul li:hover::after {
   background-color: var(--background-bubble-color);
   border-radius: 3rem;
 }
+
 .circle1 {
   left: 2%;
   top: 45%;
   height: 1.2rem;
   width: 1.2rem;
 }
+
 .circle2 {
   left: 10%;
   top: 15%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle3 {
   left: 70%;
   top: 15%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle4 {
   left: 89%;
   top: 25%;
   height: 3rem;
   width: 3rem;
 }
+
 .circle5 {
   left: 14%;
   top: 91%;
   height: 3.5rem;
   width: 3.5rem;
 }
+
 .circle6 {
   left: 90%;
   top: 114%;
   height: 1.5rem;
   width: 1.5rem;
 }
+
 .circle7 {
   left: 6%;
   top: 134%;
   height: 2.5rem;
   width: 2.5rem;
 }
+
 .circle8 {
   left: 2%;
   top: 174%;
   height: 1.5rem;
   width: 1.5rem;
 }
+
 .circle9 {
   left: 95%;
   top: 204%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle10 {
   left: 5%;
   top: 274%;
   height: 0.5rem;
   width: 0.5rem;
 }
+
 .circle11 {
   left: 95%;
   top: 324%;
   height: 3rem;
   width: 3rem;
 }
+
 .white__background_1 {
   background-image: url(img/bio_background_1.png);
   width: 100%;
@@ -191,6 +226,7 @@ nav ul li:hover::after {
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
 }
+
 .white__background_2 {
   background-image: url(img/bio_background_2.png);
   width: 100%;
@@ -203,29 +239,8 @@ nav ul li:hover::after {
 }
 
 /*=============== About ===============*/
-.about__container {
-  margin: 3rem 5rem 0rem;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-}
-
 .subcontainer {
   margin-top: 5rem;
-}
-
-.page__title {
-  letter-spacing: 3px;
-  box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,70%);
-  padding: 1rem;
-  border-radius: 2rem;
-  width: 24rem;
-  font-size: var(--title-font-size);
-  background-color: rgb(181, 233, 216, 10%);
-  color: #fff;
-  border: none;
-  text-align: center;
-  margin-bottom: 2rem;
 }
 
 .about__description {
@@ -303,13 +318,6 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
-.article__container {
-  width: 100%;
-  padding-bottom: 3rem;
-  min-height: 80vh;
-  /* display: flex; */
-  justify-content: center;
-}
 .article__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
@@ -594,7 +602,7 @@ nav ul li:hover::after {
   .banner {
     width: 110%;
   }
-  .about__container {
+  .body__container {
     margin: 0;
   }
   .bio__description {
@@ -649,7 +657,7 @@ nav ul li:hover::after {
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {
@@ -699,7 +707,7 @@ nav ul li:hover::after {
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {

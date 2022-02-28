@@ -201,7 +201,7 @@ nav ul li:hover::after {
 
 /*=============== About ===============*/
 
-.about__container {
+.body__container {
   margin: 3rem 5rem 0rem;
   padding: 3rem;
   display: flex;
@@ -424,7 +424,7 @@ nav ul li:hover::after {
   .banner {
     width: 110%;
   }
-  .about__container {
+  .body__container {
     margin: 0;
   }
   .bio__description {
@@ -459,7 +459,7 @@ nav ul li:hover::after {
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {
@@ -489,7 +489,7 @@ nav ul li:hover::after {
   }
 }
 @media screen and (min-width: 601px) and (max-width: 800px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {

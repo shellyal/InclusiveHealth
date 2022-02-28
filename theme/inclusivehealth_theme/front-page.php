@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-      <div class="about__container">
+      <div class="body__container">
         <a class="button">What is InclusiveHealth</a>
         <p class="about__description">
           Our Goal is to provide better sex education for those with
