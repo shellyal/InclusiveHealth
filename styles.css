@@ -418,7 +418,6 @@ nav ul li:hover::after {
   padding: 0 20rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
-  /* margin-left: 20rem; */
 }
 
 .home__faq {
@@ -432,16 +431,16 @@ nav ul li:hover::after {
   position: absolute;
   width: 40rem;
   height: 22rem;
-  top: 15rem;
+  top: 5rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
-.home__img2 {
+.handheart__img {
   position: absolute;
   width: 40rem;
   height: 22rem;
-  top: 18rem;
+  top: 128rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
@@ -454,7 +453,7 @@ nav ul li:hover::after {
   left: 70%;
 }
 
-/* */
+
 
 /* Active item work*/
 .active-work {
