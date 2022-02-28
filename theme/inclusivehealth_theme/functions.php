@@ -6,16 +6,5 @@ function inclusivehealth_register_styles(){
     wp_enqueue_style('inclusivehealth-fontawesome', "https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css", array(), '1.0', 'all');
    
 }
-add_action('wp_enqueue_scripts', 'inclusivehealth_register_styles');
-function inclusivehealth_menus(){
-    $locations = array(
-        'primary' => "Main Primary",
-        'footer' => "Footer Menu"
-    );
-
-    register_nav_menus($locations);
-}
-
-add_action('init', 'inclusivehealth_menus');
-
+ add_action('wp_enqueue_scripts','inclusivehealth_register_styles');
 ?>

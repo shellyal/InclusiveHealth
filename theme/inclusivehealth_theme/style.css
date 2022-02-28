@@ -37,7 +37,9 @@ Author: InclusiveHealth
 
 body {
   font-family: var(--body-font);
-  background-color: var(--main-bg-color);
+  background: url(/img/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .body__container {
@@ -579,9 +581,7 @@ nav ul li:hover::after {
 
 
 /*=============== FOOTER ===============*/
-.footer {
-  background-color: #56c596;
-}
+
 .footer__container {
   padding: 4rem 0;
 }

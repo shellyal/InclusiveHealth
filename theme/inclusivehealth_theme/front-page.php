@@ -1,20 +1,7 @@
-
-      <div class="background">
-        <div class="circle circle1"></div>
-        <div class="circle circle2"></div>
-        <div class="circle circle3"></div>
-        <div class="circle circle4"></div>
-        <div class="circle circle5"></div>
-        <div class="circle circle6"></div>
-        <div class="circle circle7"></div>
-        <div class="circle circle8"></div>
-        <div class="circle circle9"></div>
-        <div class="circle circle10"></div>
-        <div class="circle circle11"></div>
-
-        <div class="white__background_1"></div>
-        <div class="white__background_2"></div>
-      </div>
+<?php 
+  get_header();
+?>
+  
 
       <div class="body__container">
         <a class="page__title">What is InclusiveHealth</a>
@@ -59,7 +46,9 @@
       </div>
 
 
-    <!--=============== FOOTER ===============-->
+    <?php 
+      get_footer();
+    ?>
   
   </body>
 </html>
