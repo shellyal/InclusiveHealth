@@ -10,8 +10,12 @@
       type="text/css"
       href="./fontawesome-free-6.0.0-web/css/all.css"
     />
-
-    <title>Document</title>
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Home</title>
   </head>
   <body>
     <div class="banner">
@@ -21,11 +25,19 @@
           <i class="fa-solid fa-bars"></i>
         </label>
         <label class="logo">InclusiveHealth</label>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="article.html">Articles</a></li>
-          <li><a href="ask-me.html">Forum</a></li>
-          <li><a href="about.html">About</a></li>
+        <ul class="navigation">
+          <li class="navigation__li">
+            <a href="index.html" class="navigation__a current">Home</a>
+          </li>
+          <li class="navigation__li">
+            <a href="article.html" class="navigation__a">Articles</a>
+          </li>
+          <li class="navigation__li">
+            <a href="ask-me.html" class="navigation__a">Forum</a>
+          </li>
+          <li class="navigation__li">
+            <a href="about.html" class="navigation__a">About</a>
+          </li>
         </ul>
       </nav>
       <div class="background">
@@ -43,9 +55,78 @@
 
         <div class="white__background_1"></div>
         <div class="white__background_2"></div>
-
       </div>
-      <div class="context"></div>
-    </div>
+
+      <div class="body__container">
+        <a class="page__title">What is InclusiveHealth</a>
+        <p class="about__description">
+          Our Goal is to provide better sex education for those with
+          disabilities, visible and invisable. Our website will direct our users
+          to educational resources more specific to their situation.
+        </p>
+      </div>
+
+      <div class="home__subcontainer subcontainer">
+        <p class="home__description">
+         56% of Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <img src="img/ColorTogether.jpg" alt="" class="home__img">
+  
+        <img src="img/pie.png" alt="" class="pie__img">
+
+        <div class="row">
+          <div class="column">
+            <img src="img/hands.jpg" alt="" style="width: 30%;" class="rows__img">
+          </div>
+          <div class="column">
+            <img src="img/strength.jpg" alt=""  style="width: 30%;" class="rows__img">
+          </div>
+          <div class="column">
+            <img src="img/people.jpg" alt=""  style="width: 30%;" class="rows__img">
+          </div>
+         </div>
+      </div>
+
+      <div class="homeFAQ__subcontainer subcontainer">
+        <br>
+        <h1 class="section__title">FAQ</h1>
+        <p class="home__faq"> <strong> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</strong> 
+          <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatuz
+          <br> <br>
+          <strong>Ut enim ad minim veniam, quis nostrud?</strong> 
+          <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatuz
+        </p>
+        <img src="img/handheart.jpg" alt="" class="handheart__img">
+      </div>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__list">
+          <li>
+            <a href="index.html" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="article.html" class="footer__link">Articles</a>
+          </li>
+          <li>
+            <a href="ask-me.html" class="footer__link">Forum</a>
+          </li>
+          <li>
+            <a href="about.html" class="footer__link">About</a>
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/inclusive__health?utm_medium=copy_link"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
