@@ -301,7 +301,7 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
-.article__title {
+.page__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
   padding: 1rem;
@@ -314,10 +314,12 @@ nav ul li:hover::after {
   text-align: center;
   margin: 5rem 10rem 3rem;
 }
-.article__container {
+
+.body__container {
   width: 100%;
   /* margin: 0 5rem; */
 }
+
 .article__box{
   display: flex;
   flex-direction: row;
@@ -327,6 +329,7 @@ nav ul li:hover::after {
   /* display:  column; */
   justify-content: center;
 }
+
 .articles__post {
   max-width: 30rem;
   padding: 2rem;
@@ -337,6 +340,7 @@ nav ul li:hover::after {
   border-radius: .8rem;
   margin: 2rem;
 }
+
 .articles__post__date span {
   display: block;
   color: rgba(0,0,0,0.5);
@@ -368,6 +372,7 @@ nav ul li:hover::after {
   background-image: linear-gradient(to right, #56c596 0%, #267c6d 100%);
   border-radius: .8rem;
 }
+
 .article__link:hover{
   background-image: linear-gradient(to right, #267c6d 0%, #56c596 100%);
 }
@@ -376,10 +381,6 @@ nav ul li:hover::after {
 .single-heading{
  margin: 2rem;
 }
-
-
-
-
 
 /*=============== BREAKPOINTS ===============*/
 /* Nav bar */

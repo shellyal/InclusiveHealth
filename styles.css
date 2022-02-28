@@ -303,14 +303,14 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
-.article__container {
+.body__container {
   width: 100%;
   padding-bottom: 3rem;
   min-height: 80vh;
   /* display: flex; */
   justify-content: center;
 }
-.article__title {
+.page__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
   padding: 1rem;
@@ -343,11 +343,50 @@ nav ul li:hover::after {
   margin: 1rem;
 }
 
-/*==========Home========*/
-* {
-  box-sizing: border-box;
+/*=============== Ask me Page ===============*/
+.search__container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.6);
+  max-width: 900px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
 }
 
+.input {
+  width: 95%;
+  padding: 1rem 7px;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.searchbtn {
+  background: #d5f7f1;
+  width: 11%;
+  border-radius: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.searchbtn:hover {
+  background-color: #1d5e53;
+  color:#fff;
+}
+
+.bx-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+}
+/*==========Home========*/
 .row {
   display: flex;
   margin-top: 34rem;
@@ -587,7 +626,7 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
-  .article__title {
+  .page__title {
     width: 9rem;
     font-size: var(--body-font-size);
     margin: 2rem 4rem;
@@ -637,7 +676,7 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
-  .article__title {
+  .page__title {
     width: 9rem;
     font-size: var(--body-font-size);
     margin: 2rem 4rem;
