@@ -214,7 +214,7 @@ nav ul li:hover::after {
   margin-top: 5rem;
 }
 
-.button {
+.page__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,70%);
   padding: 1rem;
@@ -303,14 +303,14 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
-.body__container {
+.article__container {
   width: 100%;
   padding-bottom: 3rem;
   min-height: 80vh;
   /* display: flex; */
   justify-content: center;
 }
-.page__title {
+.article__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
   padding: 1rem;
@@ -357,7 +357,6 @@ nav ul li:hover::after {
   display: flex;
 }
 
-<<<<<<< HEAD
 .input {
   width: 95%;
   padding: 1rem 7px;
@@ -387,23 +386,16 @@ nav ul li:hover::after {
   transform: translate(-50%, -50%);
   font-size: 1.2rem;
 }
+
 /*==========Home========*/
 .row {
   display: flex;
   margin-top: 34rem;
-=======
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 120px;
->>>>>>> 8e3e94ea37e84b63db041b330348decf5735cd2a
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 33.33%;
+  padding: 55px;
 }
 
 .subcontainer {
@@ -418,11 +410,11 @@ nav ul li:hover::after {
   padding: 0 20rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
-
+  /* margin-left: 20rem; */
 }
 
 .home__faq {
-  padding: 0 20rem;
+  padding: 0 1rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
   text-align: center;
@@ -432,37 +424,16 @@ nav ul li:hover::after {
   position: absolute;
   width: 40rem;
   height: 22rem;
-  top: 12rem;
+  top: 15rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
-.hands__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.strength__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.people__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.handheart__img {
+.home__img2 {
   position: absolute;
   width: 40rem;
-  height: 20rem;
-  top: 20rem;
+  height: 22rem;
+  top: 18rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
@@ -656,7 +627,7 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
-  .page__title {
+  .article__title {
     width: 9rem;
     font-size: var(--body-font-size);
     margin: 2rem 4rem;
@@ -706,7 +677,7 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
-  .page__title {
+  .article__title {
     width: 9rem;
     font-size: var(--body-font-size);
     margin: 2rem 4rem;
