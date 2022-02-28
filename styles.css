@@ -30,6 +30,29 @@ body {
   background-color: var(--main-bg-color);
 }
 
+.body__container {
+  margin: 3rem 5rem 0rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+
+}
+
+.page__title {
+  letter-spacing: 3px;
+  box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,70%);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 24rem;
+  font-size: var(--title-font-size);
+  background-color: rgb(181, 233, 216, 10%);
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 /*=============== Navigation ===============*/
 .banner {
   background: var(--main-bg-color);
@@ -115,72 +138,84 @@ nav ul li:hover::after {
   background-color: var(--background-bubble-color);
   border-radius: 3rem;
 }
+
 .circle1 {
   left: 2%;
   top: 45%;
   height: 1.2rem;
   width: 1.2rem;
 }
+
 .circle2 {
   left: 10%;
   top: 15%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle3 {
   left: 70%;
   top: 15%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle4 {
   left: 89%;
   top: 25%;
   height: 3rem;
   width: 3rem;
 }
+
 .circle5 {
   left: 14%;
   top: 91%;
   height: 3.5rem;
   width: 3.5rem;
 }
+
 .circle6 {
   left: 90%;
   top: 114%;
   height: 1.5rem;
   width: 1.5rem;
 }
+
 .circle7 {
   left: 6%;
   top: 134%;
   height: 2.5rem;
   width: 2.5rem;
 }
+
 .circle8 {
   left: 2%;
   top: 174%;
   height: 1.5rem;
   width: 1.5rem;
 }
+
 .circle9 {
   left: 95%;
   top: 204%;
   height: 1rem;
   width: 1rem;
 }
+
 .circle10 {
   left: 5%;
   top: 274%;
   height: 0.5rem;
   width: 0.5rem;
 }
+
 .circle11 {
   left: 95%;
   top: 324%;
   height: 3rem;
   width: 3rem;
 }
+
 .white__background_1 {
   background-image: url(img/bio_background_1.png);
   width: 100%;
@@ -191,6 +226,7 @@ nav ul li:hover::after {
   background-repeat: no-repeat;
   filter: drop-shadow(10px 10px 4px #1b7751);
 }
+
 .white__background_2 {
   background-image: url(img/bio_background_2.png);
   width: 100%;
@@ -203,29 +239,8 @@ nav ul li:hover::after {
 }
 
 /*=============== About ===============*/
-.about__container {
-  margin: 3rem 5rem 0rem;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-}
-
 .subcontainer {
   margin-top: 5rem;
-}
-
-.button {
-  letter-spacing: 3px;
-  box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,70%);
-  padding: 1rem;
-  border-radius: 2rem;
-  width: 24rem;
-  font-size: var(--title-font-size);
-  background-color: rgb(181, 233, 216, 10%);
-  color: #fff;
-  border: none;
-  text-align: center;
-  margin-bottom: 2rem;
 }
 
 .about__description {
@@ -303,13 +318,6 @@ nav ul li:hover::after {
 }
 
 /*=============== Article Page ===============*/
-.article__container {
-  width: 100%;
-  padding-bottom: 3rem;
-  min-height: 80vh;
-  /* display: flex; */
-  justify-content: center;
-}
 .article__title {
   letter-spacing: 3px;
   box-shadow: 0 0.4rem 1rem rgba(0,0,0.2,50%);
@@ -343,22 +351,59 @@ nav ul li:hover::after {
   margin: 1rem;
 }
 
+/*=============== Ask me Page ===============*/
+.search__container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.6);
+  max-width: 900px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+}
+
+.input {
+  width: 95%;
+  padding: 1rem 7px;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.searchbtn {
+  background: #d5f7f1;
+  width: 11%;
+  border-radius: 3rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.searchbtn:hover {
+  background-color: #1d5e53;
+  color:#fff;
+}
+
+.bx-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+}
+
 /*==========Home========*/
-* {
-  box-sizing: border-box;
+.row {
+  display: flex;
+  margin-top: 34rem;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 120px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+  flex: 33.33%;
+  padding: 55px;
 }
 
 .subcontainer {
@@ -373,11 +418,11 @@ nav ul li:hover::after {
   padding: 0 20rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
-
+  /* margin-left: 20rem; */
 }
 
 .home__faq {
-  padding: 0 20rem;
+  padding: 0 1rem;
   margin-bottom: 27.5rem;
   font-size: 1.1rem;
   text-align: center;
@@ -387,37 +432,16 @@ nav ul li:hover::after {
   position: absolute;
   width: 40rem;
   height: 22rem;
-  top: 12rem;
+  top: 15rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
 
-.hands__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.strength__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.people__img {
-  position: absolute;
- width: 15rem;
-  height: 15rem;
-  filter: drop-shadow(0px 10px 4px #1b7751);
-}
-
-.handheart__img {
+.home__img2 {
   position: absolute;
   width: 40rem;
-  height: 20rem;
-  top: 20rem;
+  height: 22rem;
+  top: 18rem;
   left: 30%;
   filter: drop-shadow(0px 10px 4px #1b7751);
 }
@@ -496,9 +520,52 @@ nav ul li:hover::after {
 }
 
 /*=============== Single Article Page ===============*/
-.single-heading{
- margin: 2rem;
+.single-background{
+  background: url(/img/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.single-heading{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 6rem;
+ margin-bottom: 2rem;
+}
+.single-heading h1{
+  font-size: 3rem;
+}
+ .single-article{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   background-color: #27AE60 ;
+   width: 50vw; /*Clamp this*/
+   height: 60vh;
+   margin: 0 auto;
+   border-radius: 5px;
+   padding: 3rem;
+ }
+ .single-article h2, .single-article h3, .single-article p{
+   margin-bottom: 1rem;
+ }
+ .single-button{
+   text-decoration: none;
+   background-color: var(--body-font-color);
+   height: 2rem;
+   margin-top: 5rem;
+   border-radius: 10px;
+   padding-left: 10rem;
+   padding-right: 10rem;
+   border: 2px solid #27AE60;
+   font: var(--body-font);
+   
+ }
+ .single-footer{
+   margin-top: 20rem;
+ }
+
 
 
 /*=============== FOOTER ===============*/
@@ -578,7 +645,7 @@ nav ul li:hover::after {
   .banner {
     width: 110%;
   }
-  .about__container {
+  .body__container {
     margin: 0;
   }
   .bio__description {
@@ -633,7 +700,7 @@ nav ul li:hover::after {
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {
@@ -683,7 +750,7 @@ nav ul li:hover::after {
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
-  .about__container {
+  .body__container {
     margin: 0rem;
   }
   .white__background_1 {
