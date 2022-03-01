@@ -419,7 +419,6 @@ nav ul li:hover::after {
   margin-bottom: 27.5rem;
   margin-top: -20rem;
   font-size: 1.1rem;
-  text-align: center;
 }
 
 .home__faq {
@@ -462,7 +461,6 @@ nav ul li:hover::after {
   top: -6rem;
   left: 70%;
 }
-
 
 
 /* Active item work*/
@@ -707,6 +705,22 @@ nav ul li:hover::after {
   .footer__list {
     column-gap: 2rem;
   }
+  .home__description{
+    margin-bottom: 9rem;
+    font-size: 1rem;
+  }
+  .home__img{
+    width: 16rem;
+    height: 10rem;
+    top: 18rem;
+    left: 3rem;
+  }
+  .handheart__img{
+    width: 16rem;
+    height: 10rem;
+    top: 180rem;
+    left: 3rem;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
@@ -757,6 +771,23 @@ nav ul li:hover::after {
   .footer__list {
     column-gap: 2rem;
   }
+  .home__description{
+    margin-bottom: 15rem;
+  }
+  .home__img{
+    width: 18rem;
+    height: 13rem;
+    top: 18rem;
+    left:19%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
+  }
+  .handheart__img{
+    width: 18rem;
+    height: 13rem;
+    top: 18rem;
+    left:19%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
@@ -801,6 +832,23 @@ nav ul li:hover::after {
   .footer__list {
     column-gap: 3rem;
   }
+  .home__description{
+    margin-bottom: 15rem;
+  }
+  .home__img{
+    width: 25rem;
+    height: 13rem;
+    top: 18rem;
+    left:21%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
+  }
+  .handheart__img{
+    width: 25rem;
+    height: 13rem;
+    top: 18rem;
+    left:21%;
+    filter: drop-shadow(0px 10px 4px #1b7751);
+  }
 }
  
 @media screen and (min-width: 801px) and (max-width: 995px) {
@@ -821,6 +869,16 @@ nav ul li:hover::after {
   .member__container {
     flex-direction: column;
   }
+  .home__img{
+    left: 12%;
+    width: 30rem;
+    height: 18rem;
+  }
+  .handheart__img{
+    left: 12%;
+    width: 30rem;
+    height: 18rem;
+  }
 }
 
 @media screen and (min-width: 995px) and (max-width: 1349px) {
@@ -838,5 +896,11 @@ nav ul li:hover::after {
   }
   .member__container {
     flex-direction: column;
+  }
+  .home__img{
+    left: 20%;
+  }
+  .handheart__img{
+    left: 20%;
   }
 }
