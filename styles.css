@@ -415,7 +415,7 @@ nav ul li:hover::after {
 }
 
 .home__description {
-  padding: 0rem 1rem;
+  padding: 0rem 20rem;
   margin-bottom: 27.5rem;
   margin-top: -20rem;
   font-size: 1.1rem;
